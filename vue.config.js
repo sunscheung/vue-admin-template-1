@@ -6,6 +6,10 @@ function resolve(dir) {
 }
 module.exports = {
   devServer: {
+    overlay:{
+      warning: false,
+      errors: true
+    },
     proxy: {
       "/api": {
         target: "http://xxxx/device/", // 对应自己的接口

@@ -34,6 +34,15 @@ export default {
       ],
       data1: []
     };
+  },
+  mounted() {
+    this.initData();
+  },
+  methods: {
+    initData: async function() {
+      let result = await this.$axios.get("/mock/data1.json");
+      this.data1 = result;
+    }
   }
 };
 </script>
