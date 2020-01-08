@@ -4,7 +4,7 @@
     <aside :class="asideClassName">
       <!-- logo -->
       <div class="logo-c">
-        <img src="../assets/imgs/logo.png" alt="logo" class="logo" />
+        <!-- <img src="../assets/imgs/logo.png" alt="logo" class="logo" /> -->
         <span v-show="isShowAsideTitle">后台管理系统</span>
       </div>
       <!-- 菜单栏 -->
@@ -70,7 +70,6 @@
         </div>
       </Menu>
     </aside>
-
     <!-- 右侧部分 -->
     <section class="sec-right">
       <!-- 头部 -->
@@ -576,7 +575,8 @@ aside {
   top: 0;
   left: 0;
   width: 90px;
-  background: #20222a;
+  /* background: #20222a; */
+  background: #03172d;
   height: 100%;
   transition: width 0.3s;
   overflow: auto;
@@ -711,8 +711,8 @@ a {
   margin-left: 6px;
 }
 .active {
-  background: #409eff;
-  border: 1px solid #409eff;
+  background: #375573;
+  border: 1px solid #375573;
 }
 .active a {
   color: #fff;
