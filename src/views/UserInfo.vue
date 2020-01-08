@@ -1,22 +1,12 @@
 <template>
-    <div>
-        基本资料
-        <input type="text">
-    </div>
+  <div>
+    基本资料
+    <input type="text" />
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'userinfo',
-    data() {
-        return {
-
-        }
-    },
-
-}
+  name: "userinfo"
+};
 </script>
-
-<style scoped>
-
-</style>
