@@ -1,4 +1,5 @@
 
+const webpack = require("webpack");
 const name = 'vue Admin Template' // page title'use strict'
 const path = require('path')
 function resolve(dir) {
